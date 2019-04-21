@@ -18,7 +18,6 @@ func (d *Dispatcher) Run() {
 
 func (d *Dispatcher) dispatch() {
 	for {
-
 		select {
 		case job := <-JobQueue:
 			go func(job Job) {

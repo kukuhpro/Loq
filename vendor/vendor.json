@@ -1,0 +1,31 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "PUb9/L8CJVkztokPudCX9SJ7/fw=",
+			"path": "github.com/aws/aws-sdk-go-v2/aws",
+			"revision": "80eda21e3854386d2a56de1236efe984f6e687de",
+			"revisionTime": "2019-04-10T19:01:56Z"
+		},
+		{
+			"checksumSHA1": "DVN6AdXnfTwEOLJwCOhFqJAEF1E=",
+			"path": "github.com/aws/aws-sdk-go-v2/aws/awserr",
+			"revision": "80eda21e3854386d2a56de1236efe984f6e687de",
+			"revisionTime": "2019-04-10T19:01:56Z"
+		},
+		{
+			"checksumSHA1": "e6B1TByeUglBqKy8uBXBaINynlE=",
+			"path": "github.com/aws/aws-sdk-go-v2/internal/awsutil",
+			"revision": "80eda21e3854386d2a56de1236efe984f6e687de",
+			"revisionTime": "2019-04-10T19:01:56Z"
+		},
+		{
+			"checksumSHA1": "ERU2v7Jbu86xjpLgb+dG4lnyNfU=",
+			"path": "github.com/aws/aws-sdk-go-v2/internal/sdk",
+			"revision": "80eda21e3854386d2a56de1236efe984f6e687de",
+			"revisionTime": "2019-04-10T19:01:56Z"
+		}
+	],
+	"rootPath": "loq"
+}

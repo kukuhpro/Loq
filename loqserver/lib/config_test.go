@@ -1,4 +1,4 @@
-package loqserver
+package lib
 
 import "testing"
 

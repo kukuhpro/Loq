@@ -1,4 +1,4 @@
-package loqserver
+package lib
 
 import (
 	"io/ioutil"
@@ -14,6 +14,14 @@ type Config struct {
 
 func (c *Config) Get(key string) string {
 	return os.Getenv(key)
+}
+
+func (c *Config) SetConfigurationPath(configurationPath string) {
+	c.ConfigurationPath = configurationPath
+}
+
+func (c *Config) GetConfigurationPath() string {
+	return c.ConfigurationPath
 }
 
 func (c *Config) setValueConfiguration(array []string) bool {

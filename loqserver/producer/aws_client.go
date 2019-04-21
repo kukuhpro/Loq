@@ -13,8 +13,16 @@ func (a *AwsClient) SetConfig(config aws.Config) {
 	a.config = config
 }
 
+func (a *AwsClient) GetConfig() aws.Config {
+	return a.config
+}
+
 func (a *AwsClient) SetClient() {
 	a.client = aws.NewClient(a.config, aws.Metadata{
 		APIVersion: "2006-03-01",
 	})
+}
+
+func (a *AwsClient) GetClient() *aws.Client {
+	return a.client
 }

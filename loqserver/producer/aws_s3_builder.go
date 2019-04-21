@@ -13,6 +13,7 @@ type AwsS3Builder struct {
 
 func (as *AwsS3Builder) WithConfig(config lib.Config) {
 	as.config = config
+	as.BuildAwsConfig()
 }
 
 func (as *AwsS3Builder) BuildAwsConfig() {
